@@ -4,10 +4,6 @@
 
 Welcome to **Modernized Gallery**, a minimalist gallery project built with pure HTML, CSS and JavaScript.
 
-## Demo
-
-Check out a live preview of the gallery by opening the `index.html` file in any modern browser.
-
 ## Usage
 
 1. Clone or download the repository.
