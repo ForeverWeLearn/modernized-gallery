@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    width: 100vw;
+    overflow: hidden;
+    transition: 1.5s ease-in-out;
+    backdrop-filter: blur(1vh) brightness(0.35);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./assets/imgs/003.jpg");
+}
+
+img {
+    width: 95%;
+    height: 85%;
+    margin: auto;
+    object-fit: cover;
+    transform: scale(1);
+    transition: .5s ease-in-out;
+    filter: brightness(0.35) grayscale(0.65);
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.35);
+}
+
+.vignette {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-size: cover;
+    background: radial-gradient(circle at 50% 50%,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.42),
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.9)) no-repeat center;
+}
+
+.container {
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    /* Taskbar height */
+    /* transform: translateY(-2.2vh); */
+}
+
+.item {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    transition: flex 1.5s ease-in-out;
+}
+
+.hover {
+    flex: 176;
+
+    & img {
+        filter: brightness(1) grayscale(0);
+        box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.65);
+    }
+}
