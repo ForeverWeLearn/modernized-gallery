@@ -33,7 +33,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE). Please ensure the LICENSE file is present in the repository to avoid broken links or confusion.
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
