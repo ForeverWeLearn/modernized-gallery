@@ -1,3 +1,4 @@
+const switchInterval = 5000;
 let idx = 1;
 let heightPercent = [85, 64, 58, 53, 50];
 let widthPercent = [95, 64, 62, 60, 58];
@@ -30,4 +31,4 @@ const fn = function () {
     document.body.style.backgroundImage = `url("./assets/imgs/00${idx + 1}.jpg")`;
 }
 
-const interval = setInterval(fn, 10000);
+const interval = setInterval(fn, switchInterval);
