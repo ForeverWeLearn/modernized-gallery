@@ -7,7 +7,7 @@ Welcome to **Modernized Gallery**, a minimalist gallery project built with pure 
 ## Usage
 
 1. Clone or download the repository.
-2. Place your image files (e.g., JPEG, PNG) in the `images` directory.
+2. Place your image files (JPG) in the `images` directory.
 3. Open `index.html` in your browser.
 
 ```bash
